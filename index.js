@@ -13,7 +13,7 @@ function takeANumber(line, name) {
  
  function currentLine(line){
    if (line.length === 0) {
-     return 'There is nobody waiting to be served!';
+     return 'The line is currently empty.';
    } else{
      let emptyArr = [];
    for (let i = 0; i < line.length; i++) {
