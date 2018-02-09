@@ -15,6 +15,10 @@ function takeANumber(line, name) {
    if (line.length === 0) {
      return 'There is nobody waiting to be served!';
    } else{
-     
+     let emptyArr = [];
+ +  for (let i = 0; i < line.length; i++) {
+ +    emptyArr.push(`${i + 1}. ${line[i]}`);
+ +  }
+ +  return 'The line is currently: ' + numbersAndNames.join(', ');
    }
  }
