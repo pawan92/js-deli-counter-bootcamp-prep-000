@@ -10,3 +10,11 @@ function takeANumber(line, name) {
      return `Currently serving ${line.shift()}.`;
    }
  }
+ 
+ function currentLine(kine){
+   if (line.length === 0) {
+     return 'There is nobody waiting to be served!';
+   } else{
+     
+   }
+ }
